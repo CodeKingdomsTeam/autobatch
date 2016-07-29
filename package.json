@@ -1,0 +1,37 @@
+{
+  "name": "autobatch",
+  "version": "0.0.1",
+  "description": "Automatically batch any kind of request based on configurable limits.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeKingdomsTeam/autobatch.git"
+  },
+  "keywords": [
+    "batch",
+    "api"
+  ],
+  "author": "Andrew Moss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeKingdomsTeam/autobatch/issues"
+  },
+  "homepage": "https://github.com/CodeKingdomsTeam/autobatch#readme",
+  "dependencies": {
+    "lodash.defaults": "^4.1.0"
+  },
+  "scripts": {
+    "test": "mocha -r ./enable-power-assert test"
+  },
+  "devDependencies": {
+    "espower-loader": "^1.0.0",
+    "lolex": "^1.5.1",
+    "mocha": "^2.5.3",
+    "mocha-generators": "^1.2.0",
+    "power-assert": "^1.4.1"
+  },
+  "engine-strict": true,
+  "engines": {
+    "node": ">= 4.0.0"
+  }
+}
