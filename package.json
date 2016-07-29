@@ -1,6 +1,6 @@
 {
   "name": "autobatch",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Automatically batch any kind of request based on configurable limits.",
   "main": "index.js",
   "repository": {
